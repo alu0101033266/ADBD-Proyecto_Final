@@ -3,7 +3,17 @@
 ## **Autores**
 - Enrique Hernandez Cabrera
 - Airam Herrera Plasencia
+  
+# **Índice del Proyecto - Nova Sport Club**
 
+1. [**Proyecto Final**](./Proyecto_Final_ADBD.pdf) - Documento principal del proyecto en formato PDF.
+2. [**Modelo Entidad-Relación**](./Modelo_E-R) - Contiene los diagramas y recursos del modelo E-R.
+3. [**Modelo Relacional**](./Modelo_Relacional) - Incluye los esquemas relacionales del proyecto.
+4. [**Scripts**](./Scripts) - Scripts SQL para la base de datos.
+5. [**API-REST**](./API-REST) - Código fuente de la API REST.
+6. [**Presupuesto**](./Presupuesto) - Contiene los cálculos y desglose del presupuesto.
+
+---
 ## Funcionamiento de la API REST 
 
 ### **Requisitos previos**
