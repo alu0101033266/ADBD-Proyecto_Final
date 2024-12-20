@@ -28,7 +28,7 @@
 (ID_Deporte, Nombre)
 - **(PK):** ID_Deporte
 
-## **POLIDEPORTIVO**
+ **POLIDEPORTIVO**
 
 (ID_Instalacion, Capacidad, Tipo, Nombre, Dirección, Tipo_Suelo)
 - **(PK):** ID_Instalacion
@@ -40,7 +40,7 @@
 - **(PK):** ID_Instalacion
 - **(FK):** ID_Instalacion
 
-## **PISCINA**
+ **PISCINA**
 
 (ID_Instalacion, Capacidad, Tipo, Nombre, Dirección, Superficie)
 - **(PK):** ID_Instalacion
