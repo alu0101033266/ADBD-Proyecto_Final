@@ -10,7 +10,7 @@ def get_db_connection():
         host='localhost',
         database="nova_sports_club",
         user="postgres",
-        password="hyssen54"  # Cambia la contraseña si es necesario
+        password="cammbia_contrasena"  # Cambia la contraseña si es necesario
     )
 
 # **Rutas de la API REST**
