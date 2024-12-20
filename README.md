@@ -82,7 +82,43 @@ Antes del delete:
 - Asegúrate de tener configurada la conexión a la base de datos PostgreSQL en el archivo del código antes de ejecutar la API.
 
 ## **Rutas de ejemplo para mostrar el funcionamiento de las rutas**
+**Usando socio para las pruebas**
 
+### Ruta POST de creacion socio
+
+Podemos crear un socio con una petición POST
+
+![image](https://github.com/user-attachments/assets/c30ce4c0-4f1f-4ec3-9551-50d45a6378d4)
+
+### Ruta GET Socio todos
+
+Podemos obtener la tabla de socios entera
+
+![image](https://github.com/user-attachments/assets/9e6be926-2dcc-487f-8872-bd74c9a8bbab)
+
+### Ruta GET socio por ID
+
+Podemos obtener un socio en concreto usando su ID
+
+![image](https://github.com/user-attachments/assets/4c9e48e9-8a77-4a67-9960-309c49455bd5)
+
+### Ruta PUT socio por ID
+
+Podemos actualizar los datos de un socio en concreo usando su ID
+
+![image](https://github.com/user-attachments/assets/e252fe15-6250-4613-99ca-f2ff58ae5db0)
+
+### RUTA DELETE socio por ID
+
+Podemos eliminar a un socio en concreto usando su ID
+
+Operacion del DELETE:
+
+![image](https://github.com/user-attachments/assets/13642724-cb05-4c05-b0ac-c6cf66f42423)
+
+Operacion de GET despues del DELETE:
+
+![image](https://github.com/user-attachments/assets/671b2652-a228-40ef-bd37-97dac7f5f23c)
 
 ## **Rutas de la API**
 
@@ -185,6 +221,57 @@ Antes del delete:
 | GET    | `/api/entrena`  | Obtener todos los registros de entrenamiento.|
 | POST   | `/api/entrena`  | Crear un nuevo registro de entrenamiento.    |
 | DELETE | `/api/entrena`  | Eliminar un registro de entrenamiento.       |
+
+# **Presupuesto**
+
+## **Costos de Desarrollo**
+
+Este apartado incluye las horas dedicadas a las distintas fases del proyecto y su correspondiente costo estimado.
+
+| Tarea                       | Horas Estimadas | Costo por Hora (€) | Total (€) |
+|-----------------------------|-----------------|--------------------|-----------|
+| Análisis de Requisitos      | 8               | 15                 | 120       |
+| Diseño Conceptual (ERD)     | 15              | 15                 | 225       |
+| Diseño Lógico y Relacional  | 8               | 15                 | 120       |
+| Implementación en PostgreSQL| 20              | 15                 | 300       |
+| Desarrollo de la API REST   | 25              | 15                 | 375       |
+| Pruebas y Depuración        | 15              | 15                 | 225       |
+| Documentación               | 10              | 10                 | 100       |
+| **Total Desarrollo**        | **-**           | **-**              | **1465**  |
+
+---
+
+## **Pruebas y Mantenimiento**
+
+El proceso de pruebas y mantenimiento se distribuyó en tres actividades principales: pruebas funcionales, pruebas de carga, y corrección de errores. El desglose es el siguiente:
+
+| Actividad            | Horas Estimadas | Costo por Hora (€) | Total (€) |
+|----------------------|-----------------|--------------------|-----------|
+| Pruebas funcionales  | 10              | 10                 | 100       |
+| Pruebas de carga     | 5               | 10                 | 50        |
+| Corrección de errores| 5               | 10                 | 50        |
+| **Total Pruebas y Mantenimiento** | **-** | **-** | **200** |
+
+---
+
+## **Costo Total Estimado**
+
+Finalmente, el costo total estimado para el proyecto, incluyendo todas las categorías mencionadas, se resume en la siguiente tabla:
+
+| Concepto                | Costo (€) |
+|-------------------------|-----------|
+| Costos de Desarrollo    | 1465      |
+| Infraestructura Tecnológica | 0     |
+| Pruebas y Mantenimiento | 200       |
+| **Total General**       | **1665**  |
+
+---
+
+## **Notas Finales**
+
+- Las herramientas utilizadas fueron gratuitas o de código abierto (PostgreSQL, Flask, Draw.io).
+- Este presupuesto refleja exclusivamente el tiempo invertido y los recursos utilizados por los integrantes del equipo.
+
 
 
 
