@@ -1,6 +1,8 @@
 
 # **Presupuesto**
 
+El desarrollo del proyecto se detalla en términos de las tareas realizadas, los recursos tecnológicos empleados y los costos asociados. A continuación, se presenta un desglose estructurado:
+
 ## **Costos de Desarrollo**
 
 Este apartado incluye las horas dedicadas a las distintas fases del proyecto y su correspondiente costo estimado.
