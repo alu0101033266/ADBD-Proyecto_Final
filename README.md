@@ -4,6 +4,7 @@
 
 ### Consulta 1: El pago esta fuera del tiempo:
 Si intentamos insertar un pago fuera  del tiempo saldrá un error:
+
 ![image](https://github.com/user-attachments/assets/0f018ee3-852b-4c5f-a207-6ceecc018212)
 
 
@@ -13,6 +14,7 @@ Si intentamos insertar un pago con un monto erróneo saldrá un error:
 ![image](https://github.com/user-attachments/assets/8dd533b9-ce57-4e5a-be20-49c32ea87e33)
 
 ### Consulta 3: Si actualizamos la edad del socio se actualiza correspondiente su membresia:
+actualizamos la fecha de nacimiento del socio y se genera automaticamente la nueva edad y procede a cambiar la membresia automaticamente
 
 ![image](https://github.com/user-attachments/assets/38c78c97-1c67-4883-81b3-d0e52b329a58)
 
@@ -78,6 +80,10 @@ Antes del delete:
 
 ### **Nota**
 - Asegúrate de tener configurada la conexión a la base de datos PostgreSQL en el archivo del código antes de ejecutar la API.
+
+## **Rutas de ejemplo para mostrar el funcionamiento de las rutas**
+
+
 ## **Rutas de la API**
 
 ### **1. Rutas de Socios**
