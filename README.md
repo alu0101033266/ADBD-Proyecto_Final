@@ -29,7 +29,8 @@ Si se inserta un horario para un entrenador donde tenga que entrenar 2 deportes 
 ### Consulta 6: Un socio tiene que tener si o si una membresía:
 Nos aseguramos de  que no existen socios sin membresías 
 
-![image](https://github.com/user-attachments/assets/f6776896-34af-4a0f-8e45-f954daf67c7b)
+![image](https://github.com/user-attachments/assets/573f375e-d66b-483c-b1fd-1c8a5bb48dfe)
+
 
 ### Consulta 7: Fechas futuras:
 No es posible insertar socios que tengan una fecha de nacimiento futura
