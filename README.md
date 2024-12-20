@@ -52,3 +52,5 @@ Antes del delete:
 
  ![image](https://github.com/user-attachments/assets/2645ce17-798a-42ed-a8e4-7bed99c18ab6)
 
+
+
