@@ -1,23 +1,18 @@
 # Modelo_Relacional
 
-## **SOCIO**
-```
+ **SOCIO**
 (ID_SOCIO, Nombre, Fecha_Nacimiento, Apellido1, Apellido2, Edad GENERATED ALWAYS AS (EXTRACT(YEAR FROM AGE(Fecha_Nacimiento))) STORED)
 - **(PK):** ID_SOCIO
-```
 
----
 
-## **MEMBRESIA**
-```
+**MEMBRESIA**
+
 (ID_Membresia, ID_Socio, Frecuencia, Categoria, Fecha_Inicio, Estado, 
  Fecha_Vencimiento GENERATED ALWAYS AS (CASE WHEN Frecuencia = 'Mensual' THEN CURRENT_DATE + INTERVAL '1 MONTH' WHEN Frecuencia = 'Trimestral' THEN CURRENT_DATE + INTERVAL '3 MONTH' END),
  Coste_Total GENERATED ALWAYS AS (50 * CASE WHEN Categoria = 'Infantil' THEN 0.90 WHEN Categoria = 'Senior' THEN 0.95 ELSE 1 END))
 - **(PK):** ID_Membresia, ID_Socio
 - **(FK):** ID_Socio
-```
 
----
 
 ## **PAGO**
 ```
