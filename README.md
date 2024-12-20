@@ -1,5 +1,5 @@
 # **Nova Sport Club**
-![Nova](https://imgur.com/a/EPGGp9j)
+![Nova](https://i.imgur.com/gZmysJ6.png)
 ## **Autores**
 - Enrique Hernandez Cabrera
 - Airam Herrera Plasencia
